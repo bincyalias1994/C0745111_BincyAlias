@@ -4,7 +4,8 @@
     <title>Event!!!</title>
     <script type="text/javascript">
         function trigger() {
-            document.getElementByld("hover").addEventListener("mouseover", popup);
+            document.getElementById("hover").addEventListener("mouseover", popup);
+            
             function popup() {
                 alert("Welcome to my Webpage!!!");
             }
@@ -22,6 +23,6 @@
 
 </head>
 <body onload="trigger();">
-    <p id= ="hover">Welcome!!!</p>
+    <p id="hover"><img src="images/welcome.jpg" alt="welcome"></p>
 </body>
 </html>
